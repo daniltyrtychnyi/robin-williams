@@ -1,0 +1,23 @@
+/* Base */
+
+@import './base/global.css';
+@import './base/normalize.css';
+@import './base/fonts.css';
+@import './base/variables.css';
+
+/* Blocks */
+
+@import './blocks/header.css';
+@import './blocks/hero.css';
+@import './blocks/experience.css';
+@import './blocks/philosophy.css';
+@import './blocks/skillset.css';
+@import './blocks/partners.css';
+@import './blocks/projects.css';
+@import './blocks/button.css';
+@import './blocks/instagram.css';
+@import './blocks/dribbble.css';
+@import './blocks/testimonials.css';
+@import './blocks/photography.css';
+@import './blocks/started.css';
+@import './blocks/footer.css';

@@ -1,0 +1,31 @@
+:root {
+    --font-family-base: 'Sen', sans-serif;
+
+    --color-dark: #000000;
+    --color-dark-alternate: #181823;
+    --color-light-grey: #8491A0;
+    --color-dark-grey: #5B6876;
+    --color-light: #FFFFFF;
+    --color-primary: #5221E6;
+    --color-green: #3CC74E;
+    --color-pink: #E95D90;
+    --color-peach: #FFF3E4;
+    --color-violet: #FBE4FF;
+
+    --section-title-desktop: 55px;
+    --section-title-mobile: 32px;
+    --section-card-title: 24px;
+    --section-description: 18px;
+
+    --padding-medium: 24px;
+    --padding-block-large: 120px;
+    --padding-block-medium: 80px;
+    --padding-block-small: 48px;
+
+    --container-width: 1300px;
+    --container-padding-x: 40px;
+
+    --header-height: 90px;
+
+    --transition-duration: 0.2s;
+}

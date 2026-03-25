@@ -1,0 +1,70 @@
+.philosophy {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: var(--color-peach);
+}
+
+.philosophy::before {
+    content: '';
+    width: 100%;
+    max-width: 720px;
+    height: 600px;
+    background: url('./../../images/philosophy/philosophy-image-base.jpg') center/contain no-repeat;
+}
+
+.philosophy__body {
+    width: 100%;
+    max-width: 576px;
+}
+
+.philosophy__body-title {
+    padding-bottom: var(--padding-medium);
+    color: var(--color-dark);
+}
+
+.philosophy__body-description {
+    padding-bottom: 134px;
+}
+
+@media (max-width: 1280px) {
+
+    .philosophy::before {
+        width: 100%;
+        max-width: 384px;
+        background: url('./../../images/philosophy/philosophy-image-medium.jpg') center/contain no-repeat;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .philosophy__body-description {
+        padding-bottom: 67px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .philosophy {
+        flex-direction: column-reverse;
+    }
+
+    .philosophy::before {
+        width: 100%;
+        max-width: 360px;
+        height: 450px;
+        background: url('./../../images/philosophy/philosophy-image-small.jpg') center/contain no-repeat;
+    }
+
+    .philosophy__body {
+        padding-block: var(--padding-block-small);
+    }
+
+    .philosophy__body-title {
+        font-size: var(--section-title-mobile);
+    }
+
+    .philosophy__body-description {
+        padding-bottom: 90px;
+    }
+}
