@@ -83,6 +83,10 @@
 
 @media (max-width: 1024px) {
 
+    .header {
+        --header-height: 72px;
+    }
+    
     .header::after {
         display: none;
     }
