@@ -26,6 +26,7 @@
     aspect-ratio: 1;
     background-color: transparent;
     border: none;
+    outline: none;
 }
 
 .mobile-overlay__form-close-button::after,
