@@ -70,12 +70,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 767px) {
-
-    .mobile-overlay__form-close-button:hover {
-        background-color: transparent;
-    }
-
+@media (hover: none) and (pointer: coarse) {
     .mobile-overlay__form-close-button:active {
         background-color: var(--color-light);
         border-radius: 10px;
