@@ -50,15 +50,6 @@
     border-color: var(--color-light);
 }
 
-input:focus:not(:focus-visible) {
-  outline: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-input:focus-visible {
-  outline: 1px solid var(--color-light);
-}
-
 .started__form-input {
     height: 50px;
 }
