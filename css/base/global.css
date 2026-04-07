@@ -28,7 +28,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-light);
 }
 
-input {
+input:focus:not(:focus-visible) {
+  outline: none;
   -webkit-tap-highlight-color: transparent;
 }
 
