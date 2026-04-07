@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-light);
 }
 
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .kicker {
     font-weight: 700;
     text-transform: uppercase;
